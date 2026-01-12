@@ -12,8 +12,9 @@ TDS:Loadout("Trapper", "Minigunner", "DJ Booth", "Commander", "Ranger") -- Chang
 TDS:Mode("Pizza Party")
 
 -- START STRATEGY
+
 TDS:Place("Trapper", 7.71, 1.04, -24.59)
-TDS:VoteSkip()
+TDS:VoteSkip(1)
 TDS:Upgrade(1)
 TDS:Upgrade(1)
 TDS:SetTarget(1, "Last")
